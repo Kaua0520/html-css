@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(65, 196, 196, 0.955), rgba(82, 195, 195, 0.955));
+    font: normal 16px Arial, Verdana, serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}

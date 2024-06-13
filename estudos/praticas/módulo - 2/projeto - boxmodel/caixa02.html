@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgb(91, 91, 91);
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(91, 91, 91);
+            padding: 3px;
+            box-shadow: 2px 2px 4px rgba(74, 74, 74, 0.382);
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-right: 45px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 13px 0px;
+            box-shadow: 2px 2px 6px rgb(38, 38, 38);
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(193, 184, 184);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non, amet ducimus ea laboriosam tenetur ad esse, voluptatem odio eos rerum? Odio sunt iste fugit rerum illo quidem quod ea.</p>
+                <aside>
+                    <p>Artigo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Kauã</p>
+    </footer>
+</body>
+</html>

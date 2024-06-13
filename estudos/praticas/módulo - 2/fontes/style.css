@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: normal;
+    font: italic, lighter, 1em, sans-serif; /* - condensa essas configurações acima em uma única linha */
+}
+
+h1,h2 {
+    font-family: serif;
+    text-decoration: underline;
+}

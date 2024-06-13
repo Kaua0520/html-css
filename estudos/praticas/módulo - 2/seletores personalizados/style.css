@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* HTML --> id CSS --> #
+   HTML --> class CSS --> .
+
+   id --> um único elemento por documento
+   class --> multiplos elementos
+
+   //é possível usar mais de uma classe no mesmo elemento
+
+   //é possível usar id e class no mesmo elemento
+
+   //nomear de acordo com a função e não com a forma
+*/
+
+* {
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(208, 255, 216);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(82, 107, 86);
+}
+
+h1#principal {
+    /*digitar extamente igual no HTML*/
+    text-align: center;
+    background-color: rgba(108, 222, 118, 0.881);
+    color: white;
+}
+
+.destaque {
+    background-color: rgba(96, 182, 103, 0.789);
+}
+
+h2 {
+    color: rgb(103, 128, 108);
+    ;
+}
+
+.basico {
+    color: rgb(89, 226, 112);
+    ;
+}
+
+.intermediario {
+    color: rgb(208, 194, 71);
+}
+
+.avancado {
+    color: rgb(219, 53, 53);
+}

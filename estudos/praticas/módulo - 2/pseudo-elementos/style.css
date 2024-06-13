@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+    pseudo-elemento --> mexe diretamento no conteúdo de um elemento
+
+    //seletores personalizados: 
+    # - id
+    . - class
+    : - pseudo-class
+    :: - pseudo-elemento
+    > - children
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkred;
+}
+
+a::after {
+    content: '[link]';
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
