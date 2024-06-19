@@ -8,7 +8,7 @@
     font-weight: normal;
 }
 
-:root { /* pseudo-classe para receber variaveis */
+:root { /* root: pseudo-classe para receber variaveis */
     --cor0: #c5ebd6; /* toda variavel deve começar com -- */
     --cor1: #83e1ad;
     --cor2: #3ddc84;
@@ -28,8 +28,10 @@
 
 body {
     background-color: rgb(240, 255, 205);
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-padrao); 
 }
+
+/* var(--nomedavariavel): usar uma variavel como valor*/
 
 a.externos::after {
     content: '\1F517';
@@ -118,7 +120,7 @@ main p {
     text-align: justify;
     margin: 15px 0px;
     text-indent: 25px; /* recuo do paragrafo */
-    line-height: 1.5em; /* espaço esntre linhas */
+    line-height: 1.5em; /* espaço entre linhas */
 }
 
 main strong {
@@ -182,7 +184,7 @@ aside > h3 {
 
 aside > ul {
     list-style-position: inside;
-    list-style-type: '\2714\00A0\00A0'; 
+    list-style-type: '\2714\00A0\00A0'; /* personalizei a lista com um elemento externo*/
     columns: 2;
 }
 
