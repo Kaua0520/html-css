@@ -6,25 +6,28 @@
     <title>Centralizando uma Div</title>
     <style>
         #container {
-            background-color: black;
+            background-color: blue;
             width: 700px;
-            height: 500px;
+            height: 600px;
             margin: auto;
+            border-radius: 10px;
+
+            /*centralizando div:*/
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
         #conteudo {
-            background-color: white;
-            width: 150px;
-            height: 150px;
+            background-color: aquamarine;
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <div id="container">
-        <div id="conteudo"> </div>
-    </div>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
 </body>
 </html>
