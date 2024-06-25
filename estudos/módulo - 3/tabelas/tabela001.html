@@ -5,57 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas em HTML5</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        table  {
-            width: 350px;
-            height: 350px;
+        table {
+            width: 400px;
+            height: 200px;
             border-collapse: collapse;
-            border: 2px solid black;
         }
 
         td {
             border: 1px solid black;
-            padding: 5px;
-            text-align: center; /* alinhamento horizontal */
-            vertical-align: middle; /* alinhamento vertical */
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
         }
 
         .numero {
-            text-align: right;
+            text-align: center;
             font-style: italic;
+            background-color: aliceblue;
         }
     </style>
 </head>
+
 <body>
-    <h1>Minha primeira tabela</h1>
-    <table> <!-- table - tabela-->
-        <tr> <!-- tr - linhas-->
-            <td>A1</td> <!-- td - dados-->
-            <td>B1</td>
-            <td>C1</td>
-            <td>D1</td>
-        </tr>
+    <table>
         <tr>
+            <td class="numero">A1</td>
             <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
-            <td class="numero">D2</td>
-        </tr>
-        <tr >
             <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
-            <td class="numero">D3</td>
+            <td>A4</td>
         </tr>
         <tr>
-            <td>A4</td>
+            <td>B1</td>
+            <td class="numero">B2</td>
+            <td>B3</td>
             <td>B4</td>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td class="numero">C3</td>
             <td>C4</td>
-            <td>D4</td>
+        </tr>
+        <tr>
+            <td>D1</td>
+            <td>D2</td>
+            <td>D3</td>
+            <td class="numero">D4</td>
         </tr>
     </table>
 </body>
+
 </html>
