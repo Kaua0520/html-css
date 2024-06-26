@@ -17,6 +17,10 @@
         padding: 5px;
       }
 
+      .largura {
+        width: 120px;
+      }
+
       thead, tfoot {
         background-color: gray;
         color: white;
@@ -34,8 +38,8 @@
         <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" class="largura">População</th>
             </tr>
         </thead>
         <tbody>
@@ -66,7 +70,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
